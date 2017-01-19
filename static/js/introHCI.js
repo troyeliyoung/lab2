@@ -22,7 +22,7 @@ function projectClick(e) {
 	console.log("Project clicked");
 	e.preventDefault();
 	$(this).css("background-color", "#7fff00");
-	
+}
 
 	//In an event listener, $(this) is the element that fired the event
 	var projectTitle = $(this).find("p").text();
